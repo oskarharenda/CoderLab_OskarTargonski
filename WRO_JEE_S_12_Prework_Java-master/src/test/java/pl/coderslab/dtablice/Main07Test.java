@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.contrib.java.lang.system.SystemOutRule;
+import pl.coderslab.snippets.Main07;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
