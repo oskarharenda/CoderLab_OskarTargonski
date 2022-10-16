@@ -5,8 +5,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-import static sun.util.locale.LocaleUtils.isNumeric;
-
 public class Main3 {
 
     public static void main(String[] args) {
@@ -22,13 +20,15 @@ public class Main3 {
             System.out.println(e);
         }
         String test = text.toString();
-        System.out.println(test);
-        String[] table = test.split(",");
-        int result = 0;
-        int sum = 0;
+        String[] table = test.split("[,\\n]");
+        double result = 0;
+        double sum;
         for (String s : table) {
-            if (isNumeric(s)){
+            try {
+                sum = Double.parseDouble(s);
                 result += sum;
+            } catch (NumberFormatException e) {
+                System.out.println(s + " is not a number");
             }
         }
         System.out.println(result);
