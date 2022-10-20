@@ -1,15 +1,13 @@
-package a_Zadania.a_Dzien_1.d_Konstruktor;
+package a_Zadania.a_Dzien_2.a_Dziedziczenie;
 
-import java.util.Arrays;
+import a_Zadania.a_Dzien_1.d_Konstruktor.Calculator;
+import a_Zadania.a_Dzien_1.d_Konstruktor.Person;
+
+import static java.lang.Math.pow;
 
 public class Main1 {
     public static void main(String[] args) {
-        Person person = new Person("Oskar",
-                "Targoński");
-        person.fullName();
-        Person person1 = new Person("Oskar", 26);
-        person1.fullName();
-        Person person2 = new Person("Oskar", "Targoński", 26, 'm');
-        person2.fullName();
+        AdvancedCalculator advancedCalculator = new AdvancedCalculator();
+        System.out.println(AdvancedCalculator.root(729, 3));
     }
 }

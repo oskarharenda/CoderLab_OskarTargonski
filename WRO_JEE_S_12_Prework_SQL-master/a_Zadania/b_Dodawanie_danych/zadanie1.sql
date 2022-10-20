@@ -1,0 +1,1 @@
+INSERT INTO teachers VALUES (null, "Maciej Kowalczyk", 2300);

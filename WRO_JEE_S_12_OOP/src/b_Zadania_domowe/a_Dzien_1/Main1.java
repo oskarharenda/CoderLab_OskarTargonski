@@ -1,15 +1,15 @@
-package a_Zadania.a_Dzien_1.d_Konstruktor;
+package b_Zadania_domowe.a_Dzien_1;
 
-import java.util.Arrays;
+import a_Zadania.a_Dzien_1.d_Konstruktor.Person;
 
 public class Main1 {
     public static void main(String[] args) {
-        Person person = new Person("Oskar",
-                "Targoński");
-        person.fullName();
-        Person person1 = new Person("Oskar", 26);
-        person1.fullName();
-        Person person2 = new Person("Oskar", "Targoński", 26, 'm');
-        person2.fullName();
+        BankAccount bankAccount = new BankAccount(123);
+        bankAccount.depositCash(300);
+        System.out.println(bankAccount.withdrawCash(400));
+        System.out.println(bankAccount.getCash());
+        System.out.println(bankAccount.getNumber());
+        System.out.println(bankAccount.printInfo());
+
     }
 }

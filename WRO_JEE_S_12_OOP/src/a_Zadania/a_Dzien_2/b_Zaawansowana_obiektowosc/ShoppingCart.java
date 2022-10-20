@@ -4,47 +4,57 @@ import java.util.Arrays;
 import java.util.Objects;
 
 public class ShoppingCart {
-        private static CartItem[] cartItems;
+    private static CartItem[] cartItems = new CartItem[0];
+    private static int count = 0;
 
-        public static void addProduct (Product product, int quantity){
-                for (int i = 0; i < quantity; i++){
-                        product = new CartItem(quantity);
-                        cartItems[i] = product;
-                }
+    public static void addProduct(Product product, int quantity) {
+        cartItems = Arrays.copyOf(cartItems, cartItems.length + 1);
+        CartItem cartItem = new CartItem(product, quantity);
+        cartItems[count] = cartItem;
+        count++;
+    }
+
+    public static void removeProduct(Product product) {
+        CartItem[] updateTable = new CartItem[cartItems.length];
+        int i = 0;
+        for (CartItem s : cartItems) {
+            if (!Objects.equals(s.getProduct(), product)) {
+                updateTable[i] = s;
+            }
+            i++;
         }
-        public static void removeProduct (Product product){
-                CartItem[] updateTable = new CartItem[cartItems.length];
-                int i = 0;
-                for (CartItem s : cartItems){
-                        if (!Objects.equals(s, product)){
-                             updateTable[i] = s;
-                        }
-                        i++;
-                }
-                cartItems = Arrays.copyOf(updateTable, updateTable.length);
+        cartItems = Arrays.copyOf(updateTable, updateTable.length);
+    }
+
+    public void updateProduct(Product product, int quantity) {
+        ShoppingCart.removeProduct(product);
+        ShoppingCart.addProduct(product, quantity);
+    }
+
+    public int getTotalQuantity() {
+        return cartItems.length;
+    }
+
+    public static CartItem[] getCartItems() {
+        return cartItems;
+    }
+
+    public static double gerTotalSum() {
+        double totalSum = 0;
+        for (CartItem s : cartItems) {
+            totalSum = totalSum + (s.getProduct().getPrice() * s.getQuantity());
         }
-        public void updateProduct(Product product, int quantity){
-                ShoppingCart.removeProduct(product);
-                ShoppingCart.addProduct(product, quantity);
+        return totalSum;
+    }
+
+    public String printRecipt() {
+        StringBuilder loop = new StringBuilder();
+        for (CartItem s : cartItems) {
+            double result = s.getProduct().getPrice() * s.getQuantity();
+            loop.append(s.getProduct().getName()).append(", ").append(s.getQuantity()).append("x");
+            loop.append(s.getProduct().getPrice()).append(" = ").append(result).append("\n");
         }
-        public int getTotalQuantity(){
-                return cartItems.length;
-        }
-        public static double gerTotalSum(){
-                double totalSum = 0;
-                for (CartItem s : cartItems){
-                        totalSum += Product.getPrice();
-                }
-                return totalSum;
-        }
-        public String printRecipt(){
-                StringBuilder loop = new StringBuilder();
-                for (CartItem s : cartItems){
-                        double result = Product.getPrice() * CartItem.getQuantity();
-                        loop.append(s).append(", ").append(CartItem.getQuantity()).append("x");
-                        loop.append(Product.getPrice()).append(" = ").append(result).append("\n");
-                }
-                loop.append("---\nRazem: ").append(ShoppingCart.gerTotalSum());
-                return loop.toString();
-        }
+        loop.append("---\nRazem: ").append(ShoppingCart.gerTotalSum());
+        return loop.toString();
+    }
 }

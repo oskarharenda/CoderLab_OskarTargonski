@@ -1,0 +1,1 @@
+UPDATE students SET email="test.wp.pl" WHERE student_id=6;

@@ -1,14 +1,20 @@
 package a_Zadania.a_Dzien_2.b_Zaawansowana_obiektowosc;
 
-public class CartItem extends Product {
-    private static int quantity;
-    Product newProduct = new CartItem(Product.getNextId());
+    public class CartItem {
+        private Product product;
+        private int quantity;
 
-    public CartItem(int quantity) {
-        CartItem.quantity = quantity;
+        public CartItem(Product product, int quantity) {
+            this.product = product;
+            this.quantity = quantity;
+        }
+
+
+    public int getQuantity() {
+        return this.quantity;
     }
 
-    public static int getQuantity() {
-        return quantity;
+        public Product getProduct() {
+            return this.product;
+        }
     }
-}

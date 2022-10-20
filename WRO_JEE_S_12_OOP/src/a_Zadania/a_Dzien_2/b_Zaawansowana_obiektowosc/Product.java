@@ -3,28 +3,35 @@ package a_Zadania.a_Dzien_2.b_Zaawansowana_obiektowosc;
 public class Product {
     private int id;
     private String name;
-    private static double price;
-    private static int nextId = 1;
+    private double price;
+    private int nextId = 1;
 
-    public Product() {
+    public Product(String name, double price) {
+        this.name = name;
         this.id = nextId;
+        this.price = price;
+        setPrice(price);
         nextId++;
     }
 
-    public static int getNextId() {
+    public int getNextId() {
         return nextId;
     }
 
     public void setPrice(double price) {
         if (price < 0.01){
-            throw new NumberFormatException("Price has to be higher than 0");
+            throw new IllegalArgumentException("Price has to be higher than 0");
         }
         else {
-            Product.price = price;
+            this.price = price;
         }
     }
 
-    public static double getPrice() {
-        return price;
+    public double getPrice() {
+        return this.price;
+    }
+
+    public String getName() {
+        return name;
     }
 }
