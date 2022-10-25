@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3b3f372-f97e-4f42-8a37-1a1701bef711" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/WRO_JEE_S_12_OOP/META-INF/WRO_JEE_S_12_OOP.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/a_Pierwsza_klasa/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/a_Pierwsza_klasa/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/a_Pierwsza_klasa/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/a_Pierwsza_klasa/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/a_Pierwsza_klasa/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/a_Pierwsza_klasa/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/b_Atrybuty/AccessModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/b_Atrybuty/AccessModifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/b_Atrybuty/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/b_Atrybuty/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/b_Atrybuty/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/b_Atrybuty/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/b_Atrybuty/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/b_Atrybuty/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/c_Metody/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/c_Metody/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/c_Metody/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/c_Metody/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/c_Metody/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/c_Metody/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/c_Metody/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/c_Metody/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/d_Konstruktor/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/d_Konstruktor/Burger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/d_Konstruktor/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/d_Konstruktor/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/d_Konstruktor/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/d_Konstruktor/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/d_Konstruktor/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_1/d_Konstruktor/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/a_Dziedziczenie/AdvancedCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/a_Dziedziczenie/AdvancedCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/a_Dziedziczenie/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/a_Dziedziczenie/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/a_Dziedziczenie/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/a_Dziedziczenie/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/a_Dziedziczenie/HourlyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/a_Dziedziczenie/HourlyEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/a_Dziedziczenie/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/a_Dziedziczenie/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/a_Dziedziczenie/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/a_Dziedziczenie/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/a_Dziedziczenie/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/a_Dziedziczenie/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/a_Dziedziczenie/SalariedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/a_Dziedziczenie/SalariedEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/a_Dziedziczenie/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/a_Dziedziczenie/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/b_Zaawansowana_obiektowosc/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/b_Zaawansowana_obiektowosc/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/b_Zaawansowana_obiektowosc/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/b_Zaawansowana_obiektowosc/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/b_Zaawansowana_obiektowosc/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/b_Zaawansowana_obiektowosc/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/b_Zaawansowana_obiektowosc/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/b_Zaawansowana_obiektowosc/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_Zadania_domowe/a_Dzien_1/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_Zadania_domowe/a_Dzien_1/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_Zadania_domowe/a_Dzien_1/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_Zadania_domowe/a_Dzien_1/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_Zadania_domowe/a_Dzien_1/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_Zadania_domowe/a_Dzien_1/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_Zadania_domowe/a_Dzien_1/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_Zadania_domowe/a_Dzien_1/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_Zadania_domowe/a_Dzien_1/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_Zadania_domowe/a_Dzien_1/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_Zadania_domowe/a_Dzien_1/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_Zadania_domowe/a_Dzien_1/User.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GGpALiJbnsKsMdlelmFeVG0NBG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="a_Zadania.a_Dzien_1.a_Pierwsza_klasa" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="a_Zadania.a_Dzien_2.b_Zaawansowana_obiektowosc" />
+      <recent name="a_Zadania.a_Dzien_2.a_Dziedziczenie" />
+      <recent name="b_Zadania_domowe.a_Dzien_1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.a_Zadania.a_Dzien_2.b_Zaawansowana_obiektowosc.Main1">
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a_Zadania.a_Dzien_2.a_Dziedziczenie.Main2" />
+      <module name="WRO_JEE_S_12_OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a_Zadania.a_Dzien_2.a_Dziedziczenie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a_Zadania.a_Dzien_2.a_Dziedziczenie.Main3" />
+      <module name="WRO_JEE_S_12_OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a_Zadania.a_Dzien_2.a_Dziedziczenie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="a_Zadania.a_Dzien_2.a_Dziedziczenie.Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a_Zadania.a_Dzien_2.a_Dziedziczenie.Main1" />
+      <module name="WRO_JEE_S_12_OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a_Zadania.a_Dzien_2.a_Dziedziczenie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="a_Zadania.a_Dzien_2.b_Zaawansowana_obiektowosc.Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a_Zadania.a_Dzien_2.b_Zaawansowana_obiektowosc.Main1" />
+      <module name="WRO_JEE_S_12_OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a_Zadania.a_Dzien_2.b_Zaawansowana_obiektowosc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="b_Zadania_domowe.a_Dzien_1.Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="b_Zadania_domowe.a_Dzien_1.Main2" />
+      <module name="WRO_JEE_S_12_OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="b_Zadania_domowe.a_Dzien_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.a_Zadania.a_Dzien_2.b_Zaawansowana_obiektowosc.Main1" />
+        <item itemvalue="Application.a_Zadania.a_Dzien_2.a_Dziedziczenie.Main1" />
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.b_Zadania_domowe.a_Dzien_1.Main2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3b3f372-f97e-4f42-8a37-1a1701bef711" name="Changes" comment="" />
+      <created>1666024636198</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666024636198</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="cartItems[0].product" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

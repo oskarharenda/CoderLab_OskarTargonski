@@ -6,7 +6,7 @@ public class Main3 {
     public String queryCreateTable = "";
 
     //zapisz zapytania dodające wpisy do tabeli `payments`
-    public String query1 = "";
+    public String query1 = "INSERT INTO payments VALUES(2, \"card\", \"2015-11-03\");";
     public String query2 = "";
     public String query3 = "";
     public String query4 = "";

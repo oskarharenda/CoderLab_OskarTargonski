@@ -11,7 +11,7 @@ public class Main7 {
         Scanner scanner=new Scanner(System.in);
         String choose ="";
         while (!choose.equals("x")) {
-            DBUtil.printData(DBUtil.Conetion(), "select * from cinemas", "id", "name", "address");
+            oskardbutil.printData(oskardbutil.Conetion(), "select * from cinemas", "id", "name", "address");
             System.out.println("e-edycja \n u-usuniecie \n e-exit");
             choose = scanner.nextLine();
             switch (choose){
@@ -36,7 +36,7 @@ public class Main7 {
         String address=scanner.nextLine();
         String query="UPDATE cinemas SET name='"+name+"', address='"+address+"' where id="+id;
 
-        insert2(DBUtil.Conetion(),query);
+        insert2(oskardbutil.Conetion(),query);
 
     }
     public static void insert2(Connection conn, String query) {
@@ -55,7 +55,7 @@ public class Main7 {
         System.out.println("Czy na pewno chcesz usunąć? potwierdź \"t\"");
         String yesNo=scanner2.nextLine();
         if(yesNo.equals("t")) {
-            DBUtil.remove(DBUtil.Conetion(), "cinemas", id);
+            oskardbutil.remove(oskardbutil.Conetion(), "cinemas", id);
         }
     }
 

@@ -1,28 +1,18 @@
 package a_Zadania.a_Dzien_2.f_java_i_mysql;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.SQLException;
 
 public class Main6 {
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) {
 
-        MoviesMoreAvg(Average(DBUtil.Conetion()));
-    }
-    static void MoviesMoreAvg(String average) throws SQLException {
-        DBUtil.printData(DBUtil.Conetion(), "Select *from movies where rating>"+average,"title");
-    }
+        String[] column = {"rating"};
 
-
-    static String Average(Connection conn) throws SQLException {
-        String average="";
-        try (PreparedStatement statement = conn.prepareStatement("Select avg(rating) from movies;");
-             ResultSet resultSet = statement.executeQuery();) {
-            if (resultSet.next()) {
-                average=resultSet.getString(1);
-                }
-        } catch (Exception e) {
+        try (Connection conn = DBUtil.connect()) {
+            DBUtil.printData(conn, "SELECT AVG(rating) FROM movies;", column);
+        } catch (
+                SQLException e) {
             e.printStackTrace();
         }
-        return average;
     }
-
 }

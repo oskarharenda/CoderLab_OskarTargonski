@@ -6,7 +6,7 @@ public class Main1 {
     public String tableAddQuery = "";
 
     //poniżej zapisz zapytania dodające rekordy do tabeli
-    public String queryProduct1Opinion1 = "";
+    public String queryProduct1Opinion1 = "INSERT INTO opinions VALUES(null, 1, \"fajne\"), (null, 2, \"działa\"), (null, 3, \"jest szklane\");";
     public String queryProduct1Opinion2 = "";
     public String queryProduct1Opinion3 = "";
     public String queryProduct1Opinion4 = "";
