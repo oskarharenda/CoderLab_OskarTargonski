@@ -1,0 +1,51 @@
+Index: ../WRO_JEE_S_12_MySQL/src/a_Zadania/a_Dzien_2/f_java_i_mysql/DBUtil.java
+===================================================================
+diff --git a/../WRO_JEE_S_12_MySQL/src/a_Zadania/a_Dzien_2/f_java_i_mysql/DBUtil.java b/../WRO_JEE_S_12_MySQL/src/a_Zadania/a_Dzien_2/f_java_i_mysql/DBUtil.java
+--- a/../WRO_JEE_S_12_MySQL/src/a_Zadania/a_Dzien_2/f_java_i_mysql/DBUtil.java	
++++ b/../WRO_JEE_S_12_MySQL/src/a_Zadania/a_Dzien_2/f_java_i_mysql/DBUtil.java	
+@@ -3,9 +3,9 @@
+ import java.sql.*;
+ 
+ public class DBUtil {
+-    private static String DB_URL="jdbc:mysql://localhost:3306/cinemas_ex?useSSL=false&characterEncoding=utf8";
++    private static String DB_URL="jdbc:mysql://localhost:3306/mundialbets?useSSL=false&characterEncoding=utf8";
+     private static String DB_USER="root";
+-    private static String DB_PASS="coderslab";
++    private static String DB_PASS="mundial";
+ 
+     public static Connection Conetion() throws SQLException {//metoda która zwraca połączenie -
+         return DriverManager.getConnection(DB_URL,DB_USER,DB_PASS);
+Index: ../WRO_JEE_S_12_MySQL/src/a_Zadania/a_Dzien_2/f_java_i_mysql/Main1.java
+===================================================================
+diff --git a/../WRO_JEE_S_12_MySQL/src/a_Zadania/a_Dzien_2/f_java_i_mysql/Main1.java b/../WRO_JEE_S_12_MySQL/src/a_Zadania/a_Dzien_2/f_java_i_mysql/Main1.java
+--- a/../WRO_JEE_S_12_MySQL/src/a_Zadania/a_Dzien_2/f_java_i_mysql/Main1.java	
++++ b/../WRO_JEE_S_12_MySQL/src/a_Zadania/a_Dzien_2/f_java_i_mysql/Main1.java	
+@@ -3,13 +3,22 @@
+ import java.sql.*;
+ 
+ public class Main1 {
+-    public static void main(String[] args) {
+-        String name = "kino70";
+-        String address = "przekatna 13";
++    public static void main(String[] args) throws SQLException {
++        String[] s = {"dupa", "dupa2", "dupa3"};
++        String query = "INSERT INTO game VALUES ?";
++        Connection conn = DBUtil.Conetion();
++        //insert(conn, query, s);
++        PreparedStatement statement = conn.prepareStatement(query);
++        statement.setString(1, " dupa ");
++        statement.execute();
++    }
+ 
+-        try (Connection conn = DBUtil.Conetion()) {
+-
+-            DBUtil.insert(conn,"Insert into cinemas(name,address) values(?,?)",name,address);
++    public static void insert(Connection conn, String query, String... params) {
++        try ( PreparedStatement statement = conn.prepareStatement(query)) {
++            for (int i = 0; i < params.length; i++) {
++                statement.setString(i + 1, params[i]);
++            }
++            System.out.println(statement);
+         } catch (SQLException e) {
+             e.printStackTrace();
+         }
