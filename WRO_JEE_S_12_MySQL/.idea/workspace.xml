@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae6777de-b268-4099-8a23-e6c3ab704dbe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/f_java_i_mysql/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/f_java_i_mysql/DBUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/f_java_i_mysql/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_Zadania/a_Dzien_2/f_java_i_mysql/Main1.java" afterDir="false" />
-    </list>
+    <list default="true" id="e34c3a76-58de-4d04-acf7-04c427bb0a47" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +14,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GSVD6pVY734cPOgr7Je0I8HTzI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -63,6 +62,17 @@
       <updated>1666381849488</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
